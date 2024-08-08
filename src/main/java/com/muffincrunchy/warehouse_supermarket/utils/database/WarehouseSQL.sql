@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS warehouses (
+    id uuid PRIMARY KEY,
+    name VARCHAR (255) UNIQUE NOT NULL
+)
